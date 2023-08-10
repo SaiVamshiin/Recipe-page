@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+  ---color-m: #f9fc28;
+}
+
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(208, 104, 13) 3%, rgb(148, 195, 242) 38%, rgb(248, 53, 53) 68%, rgb(241, 112, 27) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+body {
+    margin: 0 auto 5rem;
+    padding: 0 1rem;
+    max-width: 600px;
+    background-color:  #6cf76c;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: cursive;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #222;
+    text-decoration: underline;
+  }
+
+  img {
+    border-radius: 1rem;
+    display: block;
+    max-width: 100%;
+    margin: 4rem 0;
+  }
+  
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 3rem;
+    font-family: cursive;
+    color: #111;
+    text-decoration: underline;
+  }
+  
+  p {
+    padding-left: 0.5rem;
+  }
+  
+  ul,
+  ol,
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  ul,
+  ol {
+    padding: 0;
+    margin: 0;
+    padding-left: 2rem;
+  }
+  
+  li {
+    margin-bottom: 0.8rem;
+  }
+  .info {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-top: 0rem;
+    justify-content:space-evenly;
+    border: 0.25em double rgb(47, 141, 255);
+    border-radius: 2em;
+    width: 70%;
+    height:35px;
+    background: var(---color-m);
+}
+.minutes  {
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  font-weight: 500;
+  flex-direction: row;
+  text-align: center;
+}
+.separator {
+    color: #080909;
+    height:max-content ;
+}
+.btn {
+    color: #edf3f3;
+    margin: 25px;
+    background: #5fb6d1;
+    height: 45px;
+    width: 90px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 4px 8px;
+} 
+
+.btn:hover {
+    color: #fdfffff7;
+    background: #080909;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+  /***************************** Media Queries ****************************/
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 6rem;
+    }
+    .btn {
+        position: absolute;
+        height: 28px;
+        width: 70px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        padding: 4px 8px;
+        margin-bottom: 3rem;
+        top: 5px;
+        left: 0px;
+        bottom: 81px;
+    }
+  }

@@ -1,0 +1,122 @@
+:root {
+    --photo1:url(../recipes/palak-paneer.png);
+    --photo2:url(../recipes/fish-curry.png);
+    --photo3:url(../recipes/chicken-tikka-masala.png);
+    --photo4:url(../recipes/chicken-biryani.png);
+}
+
+
+
+
+
+
+body {
+    background-color: #f8eee7;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+.image-section {
+    text-align: center;
+    background-color: #EFB4A6;
+    border-radius: 8px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:380px;
+    background:url("header-image.png") center center / cover no-repeat;
+
+}
+
+.main-header {
+    border-radius: 19px;
+    border-color: black;
+    background: rgba(107, 105, 105, 0.618);
+    padding: 30px;
+}
+
+.main-p {
+    text-shadow: 2px 2px rgb(3, 3, 3);
+    color: #09cefa;
+    font-weight: 700;
+}
+.main-h1 {
+    color: black;
+    font-weight: 800;
+    font-family: cursive;
+    text-decoration: underline;
+}
+/* .main-section { 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 30px 5px rgb(0, 0, 0, 0.15);
+    text-align: center;
+    margin: 50px;
+} */
+
+.recipe-section {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 300px;
+}
+
+.card {
+    height:100%;
+    width: 25%;
+    margin: 50px;
+    display: flex;
+    background: #09cefa;
+    align-items: end;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 5px 30px 5px rgb(0, 0, 0, 0.15);
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    font-size:25px;
+    font-family: cursive;
+    font-weight: 800;
+    color: black;
+    border-radius: 19px;
+    border-color: black;
+    background: rgba(107, 105, 105, 0.618);
+    padding:8px;
+    width:max-content;
+}
+.card-1 {
+    background:var(--photo1)  center center / cover no-repeat;
+}
+.card-2 {
+    background: var(--photo2)  center center / cover no-repeat;
+}
+.card-3 {
+    background: var(--photo3) center center / cover no-repeat;
+}
+.card-4 {
+    background: var(--photo4) center center / cover no-repeat;
+}
+
+
+  /***************************** Media Queries ****************************/
+  @media (max-width: 600px) {
+    .recipe-section {
+        display: block;
+    }
+    .card {
+        width: 100%;
+        margin: 15px 0 15px 10px;
+    }
+    .image-section {
+        border-radius: 0px;
+    }
+  }
