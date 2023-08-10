@@ -1,8 +1,8 @@
 :root {
-    --photo1:url(../recipes/palak-paneer.png);
-    --photo2:url(../recipes/fish-curry.png);
-    --photo3:url(../recipes/chicken-tikka-masala.png);
-    --photo4:url(../recipes/chicken-biryani.png);
+    --photo1:url(palak-paneer.png);
+    --photo2:url(fish-curry.png);
+    --photo3:url(chicken-tikka-masala.png);
+    --photo4:url(chicken-biryani.png);
 }
 
 
