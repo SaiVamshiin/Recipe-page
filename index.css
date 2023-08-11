@@ -94,16 +94,16 @@ a {
     width:max-content;
 }
 .card-1 {
-    background:var(--photo1)  center center / cover no-repeat;
+    background:url("palak-paneer.png")  center center / cover no-repeat;
 }
 .card-2 {
-    background: var(--photo2)  center center / cover no-repeat;
+    background:url("fish-curry.png")  center center / cover no-repeat;
 }
 .card-3 {
-    background: var(--photo3) center center / cover no-repeat;
+    background:url("chicken-biryani.png") center center / cover no-repeat;
 }
 .card-4 {
-    background: var(--photo4) center center / cover no-repeat;
+    background:url("chicken-tikka-masala.png")center center / cover no-repeat;
 }
 
 
