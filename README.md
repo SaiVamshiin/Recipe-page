@@ -1,7 +1,7 @@
 # Recipe-page
 Four diffferent recipes are added to the web-page!
 # Biryani Recipe
-# Paneer Masala
+# Palak Paneer : https://saivamshiin.github.io/Recipe-page/palak-Paneer.html
 # Fish Curry
 # Butter Chicken 
 
