@@ -4,7 +4,6 @@
   ---color-m: #7afa71;
   --photo1: url(palak-paneer.png);
 }
-
 body {
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -20,7 +19,6 @@ body {
     max-width: 600px;
     background-color:  #6cf76c;
   }
-  
   h1 {
     text-align: center;
     font-family: cursive;
@@ -30,14 +28,12 @@ body {
     color: #222;
     text-decoration: underline;
   }
-
   img {
     border-radius: 1rem;
     display: block;
     max-width: 100%;
     margin: 4rem 0;
   }
-  
   h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -46,11 +42,9 @@ body {
     color: #111;
     text-decoration: underline;
   }
-  
   p {
     padding-left: 0.5rem;
   }
-  
   ul,
   ol,
   p {
@@ -58,14 +52,12 @@ body {
     line-height: 1.5;
     color: #333;
   }
-  
   ul,
   ol {
     padding: 0;
     margin: 0;
     padding-left: 2rem;
   }
-  
   li {
     margin-bottom: 0.8rem;
   }
@@ -106,7 +98,6 @@ body {
     border-radius: 5px;
     padding: 4px 8px;
 } 
-
 .btn:hover {
     color: #fdfffff7;
     background: #080909;
@@ -123,7 +114,6 @@ body {
         background-position: 0% 0%;
     }
 }
-
   /***************************** Media Queries ****************************/
   @media (max-width: 600px) {
     h1 {
