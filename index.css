@@ -4,12 +4,6 @@
     --photo3:url("chicken-tikka-masala.png");
     --photo4:url("chicken-biryani.png");
 }
-
-
-
-
-
-
 body {
     background-color: #f8eee7;
     font-family: 'Josefin Sans', sans-serif;
@@ -25,16 +19,13 @@ body {
     align-items: center;
     height:380px;
     background:url("header-image.png") center center / cover no-repeat;
-
 }
-
 .main-header {
     border-radius: 19px;
     border-color: black;
     background: rgba(107, 105, 105, 0.618);
     padding: 30px;
 }
-
 .main-p {
     text-shadow: 2px 2px rgb(3, 3, 3);
     color: #09cefa;
@@ -46,20 +37,6 @@ body {
     font-family: cursive;
     text-decoration: underline;
 }
-/* .main-section { 
-    margin: 0 auto;
-    text-align: center;
-}
-
-.card {
-    display: inline-block;
-    padding: 50px;
-    border-radius: 8px;
-    box-shadow: 0px 5px 30px 5px rgb(0, 0, 0, 0.15);
-    text-align: center;
-    margin: 50px;
-} */
-
 .recipe-section {
     display: flex;
     width: 100%;
@@ -68,7 +45,6 @@ body {
     text-align: center;
     height: 300px;
 }
-
 .card {
     height:100%;
     width: 25%;
@@ -105,8 +81,6 @@ a {
 .card-4 {
     background:url("chicken-biryani.png")center center / cover no-repeat;
 }
-
-
   /***************************** Media Queries ****************************/
   @media (max-width: 600px) {
     .recipe-section {
